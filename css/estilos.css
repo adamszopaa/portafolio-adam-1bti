@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #fff;
+    line-height: 1.6;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 8px;
+    background-color: rgb(202, 159, 41);
+    padding: 12px;
+}
+
+.menu a {
+    color: #222;
+    padding: 4px 8px;
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 18px;
+}
+
+.sobre-mi {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.portada {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 18px;
+    text-align: center;
+}
+
+.foto-sobre-mi {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    margin: 15px auto;
+}
+
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.tarjeta {
+    width: 250px;
+    padding: 14px;
+    border: 1px solid #999;
+}
+
+.tarjeta img {
+    display: block;
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+}
+
+.tarjeta h2 {
+    font-size: 20px;
+}
+
+.habilidades .tarjeta {
+    width: 190px;
+}
+
+.entrada {
+    margin: 18px 0;
+    padding: 10px 16px;
+    border-left: 4px solid rgb(202, 159, 41);
+}
+
+.entrada h2 {
+    text-align: left;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 16px;
+    text-align: center;
+    background-color: #eee;
+    font-size: 14px;
+}
